@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box
+}
+img{
+    width:100%;
+}
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color:white;
+}
+#gallery{
+    width:88%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+#gallery .container{
+    width:33%;
+    height:300px;
+}
+#gallery img{
+    object-fit: cover;
+    border-radius: 20px;
+    filter:grayscale(1);
+}
